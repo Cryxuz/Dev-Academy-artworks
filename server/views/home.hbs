@@ -1,1 +1,16 @@
-Hello, templates!
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+  
+  
+     <ul>
+        {{#each art}}
+          {{> artwork}}
+        {{/each}}
+    </ul>
+  
+</body>
+</html>
