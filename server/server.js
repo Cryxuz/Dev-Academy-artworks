@@ -29,7 +29,7 @@ server.get('/', (req, res) => {
     title: 'Gallery',
     art,
   }
-
+  console.log(viewData)
   res.render('home', viewData)
 })
 
