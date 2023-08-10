@@ -9,4 +9,3 @@ export function render(response) {
   const { document } = new JSDOM(response.text).window
   return within(document)
 }
-8
